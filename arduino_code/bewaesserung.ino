@@ -1,3 +1,12 @@
+/*
+  bewaesserung.ino - Code for an automatic watering system with two optional moisture sensors.
+
+  Created by Nehir Schmid, October 2022.
+
+  Board: Arduino Nano
+  Processor: ATmega328P
+*/
+
 int sensor_pin_1 = A7; // lower sensor connector on case
 int sensor_pin_2 = A6; // upper sensor connector on case
 int moist_pin_1 = 2; // Using D2 on Arduino NANO
